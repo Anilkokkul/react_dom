@@ -1,0 +1,40 @@
+.Card {
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 5px;
+}
+.Card img {
+  width: 100%;
+  overflow: hidden;
+  height: 185px;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+}
+
+.Card-Body a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 20px;
+}
+.Card-Body {
+  text-align: start;
+  padding: 25px 25px 0 25px;
+  height: 200px;
+}
+.highlighted {
+  color: #0aaa01;
+  font-weight: 500;
+}
+.card-bottom {
+  padding: 15px 30px;
+  font-size: 12px;
+  opacity: 0.7;
+  border-top: 1px solid #0000003b;
+}
+.card-bottom span::before {
+  content: "•";
+  margin: 3px;
+  size: 5px;
+}
