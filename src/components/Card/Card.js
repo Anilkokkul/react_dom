@@ -8,7 +8,7 @@ function Card(props) {
       <div className="Card">
         <img src={props.product.img} alt="product"></img>
         <div className="Card-Body">
-          <a href="#">{props.product.title}</a>
+          <a href="http://www.google.com">{props.product.title}</a>
           <p>{props.product.description}</p>
           <p className="highlighted">Read More »</p>
         </div>
